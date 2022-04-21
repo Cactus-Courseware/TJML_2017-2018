@@ -4,9 +4,9 @@ Sylesh Suresh
 
 We split each node on the feature that yields the most information gain. The formula for information gain in a binary decision tree is as follows:
 
-$IG(D_p,f)=I(D_p)− \frac{N_left}{I(D_left)}− \frac{N_right}{I(D_right)}$
+$IG(D_p,f)=I(D_p)− \frac{N_{left}}{I(D_{left})}− \frac{N_{right}}{I(D_{right})}$
 
-$D_p$ is the dataset of the parent node (the node which we are splitting), $f$ is the feature of the dataset which we are splitting on, $N_p$ is the total number of samples in the parent node, $N_left and $N_right$ are the number of samples in the datasets of the left child node and right child node respectively, and $I$ is the impurity measure. A node is pure if all samples in its dataset belong to the same class and is most impure when an equal number of samples belong to each class. Essentially, information gain calculates the difference between the impurity of the parent node and the impurity of the child nodes.
+$D_p$ is the dataset of the parent node (the node which we are splitting), $f$ is the feature of the dataset which we are splitting on, $N_p$ is the total number of samples in the parent node, $N_{left}$ and $N_{right}$ are the number of samples in the datasets of the left child node and right child node respectively, and $I$ is the impurity measure. A node is pure if all samples in its dataset belong to the same class and is most impure when an equal number of samples belong to each class. Essentially, information gain calculates the difference between the impurity of the parent node and the impurity of the child nodes.
 One commonly used measure of impurity is Gini impurity:
 
 $IG(i) = 1 − \sum_[p(k|i)^2]$
