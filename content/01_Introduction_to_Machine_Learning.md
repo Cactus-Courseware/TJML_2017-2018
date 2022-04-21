@@ -26,10 +26,10 @@ penalties in return and must learn the correct policy, which dictates which acti
 Vocabulary
 Here we have listed a few important words that we will use throughout the year.
 
-- Classification - Taking each instance and assigning it to a particular category. Ex: If you are looking at MRI scans of tumors, classification would be determining if each tumor is ”benign” or ”malignant.”
-- Regression - Instead of having discrete classes, like classification, the ”class” to be predicted is made up of continuous numerical values.
+- Classification - Taking each instance and assigning it to a particular category. Ex: If you are looking at MRI scans of tumors, classification would be determining if each tumor is "benign" or "malignant."
+- Regression - Instead of having discrete classes, like classification, the "class" to be predicted is made up of continuous numerical values.
 - Clustering - For data without pre-labeled classes, clustering is the act of grouping similar data points together. A form of unsupervised learning.
-- Training Data - The initial set of data used to discover potentially pre- dictive relationships. It’s what your machine learning algorithm ”trains” on and learns patterns from
+- Training Data - The initial set of data used to discover potentially pre- dictive relationships. It’s what your machine learning algorithm "trains" on and learns patterns from
 - Testing Data - Set of data used to assess the strength and utility of predictive relationship.
 - Error - The difference between algorithm’s prediction and ground-truth values.
 - Ground Truth - Data that is known to be correct. A data-set’s labels.
